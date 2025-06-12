@@ -61,8 +61,8 @@ function printFinalBill(orders: Order[], discount: number, amount: number): void
 }
 
 function handlePayment(): void {
-  const paid = readline.question('Confirm payment? (yes/no): ');
-  if (paid.toLowerCase() === 'yes') {
+  const paid = readline.question('Confirm payment? (paid/not paid): ');
+  if (paid.toLowerCase() === 'paid') {
     console.log('Thank you! Ready for next customer.');
   } else {
     console.log('Payment not received. Order cancelled.');
@@ -76,5 +76,7 @@ function handlePayment(): void {
   const { discount, amount } = calculateTotal(orders);
   printFinalBill(orders, discount, amount);
   handlePayment();
+  handleOrderFlow();
+
 }
 handleOrderFlow();

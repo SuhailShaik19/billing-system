@@ -51,8 +51,8 @@ function printFinalBill(orders, discount, amount) {
     console.log(`Total Amount: ₹${amount}`);
 }
 function handlePayment() {
-    const paid = readline.question('Confirm payment? (yes/no): ');
-    if (paid.toLowerCase() === 'yes') {
+    const paid = readline.question('Confirm payment? (paid/not paid): ');
+    if (paid.toLowerCase() === 'paid') {
         console.log('Thank you! Ready for next customer.');
     }
     else {
@@ -65,5 +65,6 @@ function handleOrderFlow() {
     const { discount, amount } = calculateTotal(orders);
     printFinalBill(orders, discount, amount);
     handlePayment();
+    handleOrderFlow();
 }
 handleOrderFlow();
