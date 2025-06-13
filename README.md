@@ -56,30 +56,30 @@ A simple, interactive command-line billing system built with **TypeScript**. Thi
 
 ### 1. Clone the repository
 
-```bash```
+```bash
 git clone https://github.com/your-username/billing-system.git
 cd billing-system
-
+```
 ### 2. Install dependencies
-```bash```
+```bash
 npm install
-
+```
 ### 3. Install Type Definitions for readline-sync
-```bash ```
+```bash 
 npm install --save-dev @types/readline-sync
-
+```
 ## Run the Project
 
 - Compile TypeScript:
-```bash```
+```bash
 npx tsc
-
+```
 - Run the app:
-```bash``
+```bash
 node dist/main.js
-
+``
 ## Example Usage
-```bash```
+```bash
 ----Items List-----
 Product: coffee, Price: 120, Type: Vegan, Category: Beverages
 ...
@@ -102,7 +102,7 @@ Total Amount: ₹216
 
 Confirm payment? (yes/no): yes
 Thank you! Ready for next customer.
-
+```
 
 
 ## Git Workflow Used
