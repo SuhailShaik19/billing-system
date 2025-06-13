@@ -18,18 +18,19 @@ A simple, interactive command-line billing system built with **TypeScript**. Thi
 ---
 
 ##  Project Structure
+```bash
    src/
-├── main.ts # Entry point (calls order flow)
-├── models/
-│ └── product.ts # Product, Order interfaces and types
-├── data/
-│ └── product-list.ts # Sample product array
-├── utils/
-│ └── helpers.ts # Utility function to fetch products
-├── services/
-│ └── order.ts # Entire order processing logic
+├ main.ts # Entry point (calls order flow)
+├ models/
+│ |_ product.ts # Product, Order interfaces and types
+├ data/
+│ |_ product-list.ts # Sample product array
+|- utils/
+│ |_ helpers.ts # Utility function to fetch products
+|- services/
+│ |_ order.ts # Entire order processing logic
 
-
+```
 ---
 
 ##  Features
@@ -119,6 +120,9 @@ Thank you! Ready for next customer.
 - feature/main – Integrated all modules in main.ts
 
 - Each branch was tested and merged into the main branch.
+
+## Author
+- **Name** : Shaik Suhail
 
 
 
