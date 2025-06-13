@@ -20,7 +20,7 @@ A simple, interactive command-line billing system built with **TypeScript**. Thi
 ##  Project Structure
 ```bash
    src/
-├ main.ts # Entry point (calls order flow)
+
 ├ models/
 │ |_ product.ts # Product, Order interfaces and types
 ├ data/
