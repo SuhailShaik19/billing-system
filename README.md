@@ -1,6 +1,6 @@
 #  Order Service - Billing System
 
-This module manages the **complete order processing flow** of the billing system. It includes functionality to:
+This module manages the complete order processing flow of the billing system. It includes functionality to:
 
 - Display the product list
 - Collect customer orders
@@ -21,7 +21,7 @@ This module manages the **complete order processing flow** of the billing system
 
 ###  `collectOrders()`
 - Repeatedly prompts user to enter product name and quantity.
-- If the product is from **Beverages**, asks for cup size.
+- If the product is from Beverages, asks for cup size.
 - Returns an array of orders.
 
 ###  `calculateTotal(orders: Order[])`
@@ -66,7 +66,7 @@ This module manages the **complete order processing flow** of the billing system
 - CupSize, Order interfaces from ../models/product
 
 ##  Sample CLI Usage
-  ```bash```
+  ```bash
   ----Items List-----
 Product: Tea, Price: 20, Type: Hot, Category: Beverages
 ...
@@ -78,13 +78,13 @@ Enter Cup Size: Medium
 ...
 
 -------Final Bill--------
-Product: Coffee
-Qty: 2
-Item Price: 40
-Cup Size: Medium
-Subtotal: ₹80
+- Product: Coffee
+- Qty: 2
+- Item Price: 40
+- Cup Size: Medium
+- Subtotal: ₹80
 ...
-Total Amount: ₹72
+- Total Amount: ₹72
 
 ## Author 
 - ***Name** : Shaik Suhail
